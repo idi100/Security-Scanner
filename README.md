@@ -31,26 +31,17 @@ Copy code
 ## Setup  
 
 1. **Clone the repository**  
-   ```bash
    git clone https://github.com/idi100/security-scanner.git
    cd security-scanner
-Install dependencies
+2. Install dependencies
+   pip install -r requirements.txt
+3. Enable VPN
+   Ensure your VPN is active before scanning.
+      Example: Mullvad VPN
 
-bash
-Copy code
-pip install -r requirements.txt
-Enable VPN
-Ensure your VPN is active before scanning.
+4. Start the API server
 
-Example: Mullvad VPN
+   python server.py
+5. Run the scanner
 
-Start the API server
-
-bash
-Copy code
-python server.py
-Run the scanner
-
-bash
-Copy code
-python scanner.py
+   python scanner.py
