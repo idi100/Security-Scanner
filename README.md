@@ -1,4 +1,4 @@
-Security Scanner – Fast Origin IP & Asset Discovery
+##Security Scanner – Fast Origin IP & Asset Discovery
 
 📌 OVERVIEW: 
 This project is a high-speed, asynchronous security scanner built to uncover hidden web assets, origin IPs, and misconfigured services often left exposed behind providers like Cloudflare.
